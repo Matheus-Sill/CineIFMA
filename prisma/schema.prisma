@@ -13,7 +13,7 @@ datasource db {
 }
 
 model Filme {
-  id     Int    @id
+  id Int @id @default(autoincrement())
   titulo String
   poster String
 
@@ -42,5 +42,5 @@ model Reserva {
 
   sessao Sessao @relation(fields: [sessaoId], references: [id])
 
-  @@unique([sessaoId, cadeira]) // 🔥 trava cadeira por data
+  @@unique([sessaoId, cadeira]) 
 }

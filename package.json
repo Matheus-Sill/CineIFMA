@@ -2,6 +2,20 @@
   "name": "cineifma",
   "version": "1.0.0",
   "private": true,
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "keywords": [],
+  "homepage": "https://github.com/Matheus-Sill/CineIFMA#readme",
+  "bugs": {
+    "url": "https://github.com/Matheus-Sill/CineIFMA/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus-Sill/CineIFMA.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +23,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^7.4.3",
+    "@prisma/adapter-pg": "^7.8.0",
     "@tailwindcss/postcss": "^4.3.0",
     "next": "latest",
     "postcss": "^8.5.15",
